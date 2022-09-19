@@ -1,0 +1,198 @@
+@font-face{
+    font-family: 'rajdahani';
+    src: url(
+        ../fonts/Rajdhani-Light.ttf
+    );
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: silver;
+    font-family: 'rajdahani';
+}
+#container{
+    width: 1014px;
+    margin: 200px auto;
+}
+/*=======================header===========*/
+header{
+    background-color: black;
+    height: 60px;
+}
+header:hover{
+    color: #ff9200;
+}
+.pexcil01{
+    background-color: #ff9200;
+    border: solid #a77431b6 2px;
+    color: black;
+    transition: all 0.5s;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+}
+.pexcil01:hover{
+    background-color: black;
+    color: #ff9200;
+    border: solid black 2px;
+}
+.icons{
+    width: 173.5px;
+    float: right;
+}
+i{
+    display: inline-block;
+    height: 60px;
+    color: #fff;
+   background: gray;
+   padding: 5px 10px 0px 10px;
+   transition: all 0.5s;
+    
+}
+i:hover{
+    color: #ff9200;
+    background-color: black;
+}
+header ul{
+    
+    display: inline-block;
+    width: 400px;
+    float: right;
+}
+header ul li{
+    display: inline-block;
+    list-style-type: none;
+    
+    padding: 0 10px;
+    background-color: black;
+    margin: 0 0;    
+
+}
+header ul li a{
+text-decoration: none;
+color: #fff;
+line-height: 60px;
+display: block;
+padding: 0 15px;
+transition: color 0.5s 0.5s , background-color 1s;
+
+}
+header ul li a:hover{
+    background-color:#ff9200;
+    color: black;
+
+}
+/*=====================main===============*/
+main div{
+    position: relative;
+    width: 25%;
+    display: inline-block;
+}
+main div h1{
+    margin-left: 30px;
+}
+main div::after{
+    content: "";
+    /*transform: translateY(-50%);*/
+    position: absolute;
+    right: -20px;
+    top: 45%;
+    border-bottom: 20px solid transparent;    
+    border-top: 20px solid transparent;
+    z-index:5;
+}
+.main1::after{
+    border-left: 20px solid #e9e9e9 ;
+}
+
+.main2::after{
+    border-left: 20px solid #ff9300 ;
+}
+.main1{
+background-color: #e9e9e9;
+}
+
+.main3::after{
+    border-left: 20px solid #383838 ;
+}
+.main4::after{
+    border-left: none ;
+}
+.main2{
+    background-color: #ff9300;
+}
+.main3{
+background-color: #383838;
+}
+.main3 h1 , .main3 p{
+    color: #ff9200;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.main1 h1 , .main1 p{
+    color: #646464;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.main2 h1 , .main2 p{
+    color: #646464;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.main4 h1 , .main4 p{
+    color: #fff;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.main4{
+background-color: #646464;
+}
+main div img{
+    margin: 0 auto;
+}
+.main1 img , .main2 img , .main3 img{
+    padding-top: 5px;
+}
+.main3 img{
+    padding-top: 7px;
+}
+.main3 img{
+    padding-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================footer============*/
+footer div{
+width: 25%;
+display: inline-block;
+color: #fff;
+background-color: black;
+}
+footer div ul li{
+    list-style-position: inside;
+    padding-left: 5px;
+    transition: all 0.5s;
+}
+footer h2{
+    transition: all 0.5s;
+}
+footer div h2:hover , footer div ul li:hover{
+color: #ff9200;
+}
